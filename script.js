@@ -17,3 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
       // なんかわからんけどブランチ分けるの忘れてこの分だけ書いてます
   });
 });
+
+window.addEventListener("beforeunload", function (event) {
+  event.preventDefault(); // ページを離れる前のデフォルトのアクションを無効化
+  event.returnValue = ""; // メッセージを表示するためのダミーのテキストを設定
+  // メッセージを表示
+  alert("ページをリロードしてもよろしいですか？");
+});
