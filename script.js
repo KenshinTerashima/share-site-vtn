@@ -23,4 +23,13 @@ window.addEventListener("beforeunload", function (event) {
   event.returnValue = ""; // メッセージを表示するためのダミーのテキストを設定
   // メッセージを表示
   alert("ページをリロードしてもよろしいですか？");
-});
+
+  const reloadButton = document.getElementById('reload-button');
+
+        // ページ再読み込みボタンがクリックされたときの処理
+        reloadButton.addEventListener('click', function() {
+            // firstpage.html にリダイレクト
+            window.location.href = 'file:///Users/terashimakenshin/share-site-vtn/firstpage.html';
+        });
+
+      });
