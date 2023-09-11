@@ -1,5 +1,7 @@
 body {
   background-color: #c5d1ce;
+  font-family: "Courier New", Courier, monospace;
+
 }
 
 ul {
@@ -221,6 +223,20 @@ h1{
     font-size: 16px;
   }
 }
+
+#reload-button {
+  display: block; /* ブロック要素に変更して、中央揃えを有効にする */
+  margin: 40px auto; /* 左右の余白を自動的に調整して中央に配置 */
+  text-align: center; /* ボタン内のテキストを中央に配置 */
+  width: 150px; /* ボタンの幅を適切なサイズに調整 */
+}
+
+#loading-screen {
+  text-align: center; /* テキストを中央揃えにする */
+  margin-top: 20px; /* 上部の余白を調整（必要に応じて変更） */
+}
+
+
 
 footer {
   margin: 50px 0;
