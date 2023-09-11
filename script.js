@@ -13,5 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // ページを再読み込みする
       window.location.reload();
+
+      // なんかわからんけどブランチ分けるの忘れてこの分だけ書いてます
   });
 });
